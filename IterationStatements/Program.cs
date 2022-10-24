@@ -122,7 +122,7 @@ namespace IterationStatements
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
-            MultiTable();
+            PowerLevel(); NineHundred(); TwoIntsEqual(4, 4); EvenOdd(4); PositiveNegative(25); VotingAge(); Range(); MultiTable();
         }
     }
 }
