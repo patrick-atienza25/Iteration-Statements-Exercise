@@ -111,7 +111,7 @@ namespace IterationStatements
             {
                 Console.WriteLine("Please enter an integer:");
                 cont = int.TryParse(Console.ReadLine(), out userInput);
-            }while (!cont);
+            } while (!cont);
 
             for (var i = 1; i < 12; i++)
             {
@@ -122,7 +122,7 @@ namespace IterationStatements
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
-            MultiTable();
+            PowerLevel(); NineHundred(); TwoIntsEqual(4, 4); EvenOdd(4); PositiveNegative(25); VotingAge(); Range(); MultiTable();
         }
     }
 }
